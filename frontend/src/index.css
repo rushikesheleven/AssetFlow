@@ -1,8 +1,21 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
+@theme {
+  /* Our Odoo-inspired brand colors */
+  --color-brand: #0F766E;      /* Crisp Teal */
+  --color-brand-dark: #115E59;
+  --color-surface: #FFFFFF;
+  --color-background: #F9FAFB; /* Light gray enterprise background */
+}
+
+/* Set the default body styles */
 body {
-  background-color: #F9FAFB; /* Matches our brand background */
-  color: #1F2937;
+  background-color: var(--color-background);
+  color: #1F2937; /* Dark gray text for better readability */
+  font-family: sans-serif;
+}
+
+/* Ensure all buttons show a pointer cursor on hover */
+button {
+  cursor: pointer;
 }
