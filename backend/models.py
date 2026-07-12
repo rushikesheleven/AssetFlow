@@ -144,7 +144,8 @@ class User(Base):
     )
 
     department: Mapped["Department"] = relationship(
-        back_populates="users"
+        back_populates="users",
+        foreign_keys="User.department_id"
     )
 
     allocations: Mapped[list["Allocation"]] = relationship(
