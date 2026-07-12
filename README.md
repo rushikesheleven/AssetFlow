@@ -19,8 +19,7 @@
 * [cite_start]**State & Fetching:** React Query (TanStack Query) for background sync[cite: 159].
 * [cite_start]**Validation:** Zod + React Hook Form (Frontend) and Pydantic (Backend)[cite: 159].
 * [cite_start]**Authentication:** Local JWT-based auth via FastAPI (PyJWT & passlib)[cite: 136, 159].
-
----
+git a---
 
 ## 🚫 Strict Hackathon Rules
 
